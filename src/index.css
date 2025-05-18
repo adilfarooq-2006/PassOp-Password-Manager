@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Custom green scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f0fdf4; /* light greenish track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #22c55e; /* Tailwind green-500 */
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #16a34a; /* Tailwind green-600 on hover */
+  }
+  
